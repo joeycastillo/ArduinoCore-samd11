@@ -37,6 +37,10 @@
    * Note that when using this define, EXTERNAL_INT_15 and the EXTERNAL_INT_NMI are NOT available
    * and only ADC_Channel0 through ADC_Channel14 are available.
    */
+
+  // *************************************************
+  // *** OSO BOARDS DO NOT SUPPORT THIS DEFINE YET ***
+  // *************************************************
   //#define PIN_DESCRIPTION_TABLE_SIMPLE
 
   /* Define PIN_PERIPHERAL_CHECKS_DISABLED to disable some sanity and other checks at the beginning 
